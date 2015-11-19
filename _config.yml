@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://nmorioka.github.io/hexo-sample/
+root: /hexo-sample/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -87,5 +87,5 @@ favicon: /favicon.png
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
  type: git
- repo: https://github.com/nmorioka/hexo-sample.git
- branch: master
+ repo: https://nmorioka@github.com/nmorioka/hexo-sample.git
+ branch: gh-pages
