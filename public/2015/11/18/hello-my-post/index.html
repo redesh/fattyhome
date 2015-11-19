@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>hello-my-post - Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hello World! コンテンツ・メディア第1事業部の、jyukutyoこと阪田です。JavaOneは一番最初のセッションが始まるのは8:30、最後のセッションが終わるのは21:45です。お昼休みはありませんのでセッション間で昼食を済ませつつ、ずっとセッションを聴き続けるため、期間中はかなりハードです。観光などする時間はなく、お土産を買う時間を捻出するのもかなり大変でした。
+Introduct">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hello-my-post">
+<meta property="og:url" content="http://yoursite.com/2015/11/18/hello-my-post/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Hello World! コンテンツ・メディア第1事業部の、jyukutyoこと阪田です。JavaOneは一番最初のセッションが始まるのは8:30、最後のセッションが終わるのは21:45です。お昼休みはありませんのでセッション間で昼食を済ませつつ、ずっとセッションを聴き続けるため、期間中はかなりハードです。観光などする時間はなく、お土産を買う時間を捻出するのもかなり大変でした。
+Introduct">
+<meta property="og:updated_time" content="2015-11-18T09:42:31.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hello-my-post">
+<meta name="twitter:description" content="Hello World! コンテンツ・メディア第1事業部の、jyukutyoこと阪田です。JavaOneは一番最初のセッションが始まるのは8:30、最後のセッションが終わるのは21:45です。お昼休みはありませんのでセッション間で昼食を済ませつつ、ずっとセッションを聴き続けるため、期間中はかなりハードです。観光などする時間はなく、お土産を買う時間を捻出するのもかなり大変でした。
+Introduct">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-hello-my-post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      hello-my-post
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2015/11/18/hello-my-post/" class="article-date">
+  <time datetime="2015-11-18T14:55:23.000Z" itemprop="datePublished">2015-11-18</time>
+</a>
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Hello World! コンテンツ・メディア第1事業部の、jyukutyoこと阪田です。JavaOneは一番最初のセッションが始まるのは8:30、最後のセッションが終わるのは21:45です。お昼休みはありませんのでセッション間で昼食を済ませつつ、ずっとセッションを聴き続けるため、期間中はかなりハードです。観光などする時間はなく、お土産を買う時間を捻出するのもかなり大変でした。</p>
+<h1 id="Introduction_to_Modular_Development">Introduction to Modular Development</h1><p>キーノートでもあった「Project Jigsaw」の紹介セッションです。構文は[キーノートのレポート][1]を参照してください。 今後java.lang.Objectなどはプラットフォームが提供するjava.baseモジュールにまとめられ、暗黙的に依存することとなります。モジュールのアクセシビリティは、モジュール内の公開されたパッケージのpublicなものだけです。公開されていないパッケージのpublicにはアクセスできないため、publicであるだけではアクセシビリティはありません。 モジュールはmodule-info.javaに記述し、コンパイルに含める必要があります。他のモジュールを使うときは<code>java -modulepath dir1:dir2</code>のようにします。モジュールのmain()メソッドを実行するときは<code>java -m モジュール名/モジュールの完全修飾名</code>で実行します。このあたりのことは[Project Jigsawのクイックスタートページ][2]がわかりやすいです。<code>-Xdiag:resolver</code>オプションをつけると、依存関係の解決をログに出力することができるようです。</p>
+<h1 id="invokedynamic_for_Mere_Mortals">invokedynamic for Mere Mortals</h1><p>JVM命令の1つであるinvokedynamic（indy）についてです。 JVMはもちろんJavaのために設計されたものですが、近年複数のプログラミング言語がJVM上で動作するようになりました。いまやどんな種類のプログラミング言語にとってもすばらしいプラットフォームとなっています。 Java以外の言語にとっての要求は、例えばcontinuationsやdyanmic invocation、tail recursion、interface injectionなどです。dyanmic invocation（動的呼び出し）をするために動的型付けがあるわけですが、動的型付けでは、呼び出しを実行するその瞬間までその型がいったい何なのか知ることができません。動的型付けは型妨害ではないし、弱い型付けでもありません。動的型付け言語は完全な型情報がなく、より実行時のチェックが求められます。indyができるまではこういった言語をJVMで動作させるためにはリフレクションを使うしかありませんでした。ただし、リフレクションにすると動作が遅く、引数がすべてObjectであったりとさまざまな問題がありました。リフレクションではインライン化できず最適化できませんでした。</p>
+<hr>
+<p>JSR-292でjava.lang.invokeのAPIが追加されましたが、これはよりよいリフレクションと言えるかもしれません。そしてinvokedynamic命令が追加されました。これはリンケージのためにディスパッチするものです。indyはJVM命令セットができてから初めて追加された命令で、そして初めてJava以外の言語をターゲットにした命令です。メソッドハンドルとコールサイト、そしてブートストラップメソッド（bsm）という概念があります。メソッドハンドルはメソッドを指し示すものです。関数ポインタ的な考えでよいと思います。メソッドハンドルのパフォーマンスですが、リフレクションよりはかなり早くなります。indyとは独立して使うことができます。コールサイトがメソッドハンドルを使ってメソッド呼び出しをします。動的という意味では、コールサイトは変わらずメソッドハンドルを変えることで呼び出すメソッドを換えれられます。つまり、コールサイトがメソッドハンドルを保持しています。</p>
+<hr>
+<p>次にブートストラップのステップです。indyを使ったコードを実行するとき、ブートストラップメソッド（bsm）を呼び出します。bsmはコールサイトを返すメソッドであるため、コールサイトを通じてメソッドハンドルへ、メソッドハンドルからメソッドを呼び出すというステップです。2回目以降の実行は、bsmは呼び出さずにコールサイトを通じて呼び出すだけです。リンケージは呼び出しではなく、リンケージは一度だけ実行する必要があるもので、またコストの高い処理でもあります。一方呼び出しは何度も実行するもので、jmp/callを必要とします。indyによってリンケージが変えました。java.lang.invokeのAPIはindyなしでもよく使われます。JVMはどの言語にとってもすばらしいプラットフォームと言えるでしょう。</p>
+<h1 id="Compact_Strings:_A_Memory-Efficient_Internal_Representation_for_Strings">Compact Strings: A Memory-Efficient Internal Representation for Strings</h1><p>JEP（JDK Enhancement Proposals） 254: Compact Stringsについてです。Stringの内部表現でもっと効果的にリソースを使うようにしようというものです。個人的にはこれが2日目で一番興味深かったセッションですね。JDK9でのリリースが予定されています。 JavaはUTF-16をサポートしており、2バイト文字を使います。より効果的にリソースを使うようにしつつも、完全な後方互換性を保つようにします。どんな使用状況でも以前のスループットパフォーマンスは維持します。JDK6で失敗したCompressed Stringsの置き換えです。さまざまなアプリケーションから統計をとったところ、Stringの大部分は小さいもので、75%以上は35文字未満でした。また、x64でcompressd referenceを使わないと2倍メモリを使うことになります。</p>
+<hr>
+<p>新しいStringクラスのデザインは次のようになります。後方互換性を維持しつつも、内部表現は変更します。UTF-16だけで表現するのではなく、 UTF-16またはISO-8859-1/Latin-1を使うようにします。1バイト文字はISO-8859-1/Latin-1で、2バイト文字はUTF-16とし、char配列ではなくbyte配列で表現するようにします。さらにencodingというbyteのフィールドを追加し、何のエンコーディングか示唆するようにします。なぜUTF-8ではないのかというと、UTF-8は文字幅が可変なためです。StringのAPIは文字シーケンスにランダムアクセスするものがたくさんあります。Stringクラスはこう変わるイメージです。JDK8ではStringクラスはこうでした。</p>
+<pre><code>{
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="built_in">char</span> <span class="keyword">value</span>[];
+ <span class="keyword">private</span> <span class="built_in">int</span> hash;
+ ...
+}
+</code></pre><p>JEP 254ではこうなります。</p>
+<pre><code>{
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">byte</span>[] value;
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">byte</span> coder;
+ <span class="keyword">private</span> <span class="keyword">int</span> hash;
+ ...
+}
+</code></pre><p>さきほどJDK6での失敗と言いましたが、具体的に見てみます。JDK6のCompressed Stringsがないときはこうでした。</p>
+<pre><code>{
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="built_in">char</span> <span class="keyword">value</span>[];
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="built_in">int</span> offset;
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="built_in">int</span> <span class="built_in">count</span>;
+ <span class="keyword">private</span> <span class="built_in">int</span> hash;
+ ...
+}
+</code></pre><p>Compressed Stringsでこうなりました。</p>
+<pre><code>{
+ <span class="keyword">private</span> <span class="keyword">final</span> object <span class="keyword">value</span>;
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="built_in">int</span> offset;
+ <span class="keyword">private</span> <span class="keyword">final</span> <span class="built_in">int</span> <span class="built_in">count</span>;
+ <span class="keyword">private</span> <span class="built_in">int</span> hash;
+ ...
+}
+</code></pre><p>valueがObjectであり、byte[]かchar[]かを判断する必要がありました。そのためCompressed StringsではStringクラスの2つの実装があることとなります。メンテナンスのコストもかかります。JREでのサポートに限界もありました。JEP 254ではbyte[]のみとなります。encodingフィールドも追加します。JREでcompressed stringsへのサポートも拡張できるでしょう。</p>
+<hr>
+<p>JMH（Javaのマイクロベンチマークツール）でのベンチマークでは、すべてのケースで処理が早くなっています。メモリ使用量は21%削減できました。スループットも5%増加してよくなっています。</p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/11/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 John Doe&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>
