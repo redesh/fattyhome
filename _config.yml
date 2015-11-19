@@ -45,7 +45,6 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
 tag_map:
 
 # Date / Time format
@@ -68,9 +67,8 @@ theme: minos
  # Header
 logo_text: # Add text logo instead of logo image
 menu:
-  Home: /
+  Home: /hexo-sample/
   Archives: archives
-  Categories: categories
   Tags: tags
   About: about
 
