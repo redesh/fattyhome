@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: fatty personal blog
 subtitle:
 description:
-author: John Doe
+author: fatty
 language:
 timezone:
 
@@ -85,5 +85,5 @@ favicon: /favicon.png
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
  type: git
- repo: https://nmorioka@github.com/nmorioka/hexo-sample.git
+ repo: https://github.com/redesh/redesh.github.io.git
  branch: gh-pages
