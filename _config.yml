@@ -67,7 +67,7 @@ theme: minos
  # Header
 logo_text: # Add text logo instead of logo image
 menu:
-  Home: /hexo-sample/
+  Home: /
   Archives: archives
   Tags: tags
   About: about
@@ -86,4 +86,4 @@ favicon: /favicon.png
 deploy:
  type: git
  repo: https://github.com/redesh/redesh.github.io.git
- branch: gh-pages
+ branch: master
