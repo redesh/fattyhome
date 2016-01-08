@@ -85,5 +85,5 @@ favicon: /favicon.png
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
  type: git
- repo: https://github.com/redesh/redesh.github.io.git
+ repo: https://github.com/redesh/fattyhome.git
  branch: gh-pages
